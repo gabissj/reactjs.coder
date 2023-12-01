@@ -1,0 +1,48 @@
+.navbar-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #1b1b1b;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+    /* background-image: url("../images/favicon.png"); */
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.seeCarrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 4vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cartnumber {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding:5px;
+    top: 37px;
+    right: 12px;
+    position: absolute;
+    display: none;
+}
