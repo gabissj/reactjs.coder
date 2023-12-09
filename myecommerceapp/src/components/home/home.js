@@ -1,15 +1,15 @@
 import Navbar from "../navbar/navbar"
 import Banner from "../banner/banner"
-import Products from "../Products/products"
+import Productshome from "../Products/productshome"
 
 const Home = () => {
     return (
         <>
-        <Navbar />
-        <Banner/>
-        <div className='product-card-container'>
-            <Products />
-        </div>
+            <Navbar />
+            <Banner />
+            <div className='product-card-container'>
+                <Productshome />
+            </div>
         </>
     )
 }

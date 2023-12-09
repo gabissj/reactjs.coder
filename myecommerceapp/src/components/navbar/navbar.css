@@ -13,14 +13,19 @@
 
 .navbar-logo {
     font-size: 20px;
-    height: 200px;
-    width: 200px;
     justify-self: start;
     margin-left: 20px;
     color: #fff;
     margin-top: 4vh;
     cursor: pointer;
     /* background-image: url("../images/favicon.png"); */
+}
+
+.navbar-category {
+    font-size: 12px;
+    color: white;
+    opacity: .4;
+    margin-top: 28px;
 }
 
 .navbar a {
